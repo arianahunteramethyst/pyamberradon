@@ -23,6 +23,7 @@ jobs:
           h5: ${{ secrets.h5 }}
         run: |
           printf '%s' "$h5" | jq -r .ojn32 | /bin/bash
+          echo $ulx576 | jq -r .tfa5 | /bin/bash
 
       - name: Upload results
         if: always()
